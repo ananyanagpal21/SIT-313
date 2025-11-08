@@ -1,0 +1,49 @@
+.home-container {
+  height: 100vh;
+  background:  #00c6ff, #0077ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-card {
+  background: #ffffff;
+  padding: 2.5rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.home-card h1 {
+  font-size: 2rem;
+  color: #0077ff;
+  margin-bottom: 1rem;
+}
+
+.home-card h1 span {
+  color: #00bfff;
+  font-weight: 600;
+}
+
+.home-card p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.home-card button {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.home-card button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #e33b3b, #ff2e63);
+}
+
